@@ -8,6 +8,9 @@ alt: chair photo
 ## What is Nuxt js
 
 Before I start writing any code in Nuxt it's import I explain what it is to those who might not know about it yet.
+I will quote from the official docs.
+
+> Nuxt.js is a higher-level framework built on top of the Vue ecosystem which provides an etremely streamlined development experience for writing universal Vue applications.
 
 ## Why Nuxt Content
 
