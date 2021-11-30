@@ -1,5 +1,6 @@
 <script>
 export default {
+layout: 'bloglayout',
   async asyncData({ $content, params }) {
     const article = await $content('articles', params.slug).fetch()
 
