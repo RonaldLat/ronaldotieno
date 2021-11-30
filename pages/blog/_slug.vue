@@ -26,7 +26,7 @@ layout: 'bloglayout',
   <article class="prose min-w-full px-8 pb-10 prose-indigo">
     <h1 >{{ article.title }}</h1>
     <p>{{ article.description }}</p>
-    <img class="rounded-md w-full bg-black p-3 min-h-56" :src="'/'+article.img" :alt="article.alt" />
+    <img class="rounded-md w-full h-auto p-3 min-h-56" :src="'/'+article.img" :alt="article.alt" />
     <p class="">Article last updated: {{ formatDate(article.updatedAt) }}</p>
     <nuxt-content :document="article" />
 

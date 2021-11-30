@@ -1,6 +1,6 @@
 ---
 title: Beginners Guide to Creating a Blog with Nuxt js, Content module and Tailwind css
-description: I have been using Eleventy for my blog for quite sometime now, but due to it's several shortcomings I have decided to switch to Nuxt Content.
+description: I have been using Eleventy for my blog for quite sometime now, but due to it's limitations I have decided to switch to Nuxt Content.
 img: nuxt-logo-dark.svg
 alt: nuxt dark svg logo
 ---
