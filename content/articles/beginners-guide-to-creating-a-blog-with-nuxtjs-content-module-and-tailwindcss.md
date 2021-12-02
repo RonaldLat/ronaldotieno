@@ -3,6 +3,11 @@ title: Beginners Guide to Creating a Blog with Nuxt js, Content module and Tailw
 description: I have been using Eleventy for my blog for quite sometime now, but due to it's limitations I have decided to switch to Nuxt Content.
 img: nuxt-logo-dark.svg
 alt: nuxt dark svg logo
+tags: 
+  - vue
+  - nuxt.js
+  - tailwind
+
 ---
 
 ## What is Nuxt js
@@ -21,7 +26,7 @@ Did I also mention that it is easy to pick up and use? By the time you reach the
 ## Content Folder Structure
 
 <!--![ nuxt.js content folder structure](/folder-structure.png)-->
-<img class="w-auto rounded-md mx-auto" src="/folder-structure.png" alt="folder structure" />
+<img class="w-auto mx-auto rounded-md" src="/folder-structure.png" alt="folder structure" />
 
 - **pages**:
     Here will be the routing links. Any .vue file created inside this folder will resolve to a url link.

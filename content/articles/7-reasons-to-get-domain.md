@@ -1,10 +1,11 @@
 ---
 title: Seven Reasons To Buy A Domain Name In 2021
 description: Why A Domain name matters more in 2021 than ever.
-date: 2021-08-07
+img: dynamic.png
+alt: web page illustration
 tags: 
-  -web
-layout: layouts/post.njk
+  - web
+  - digital-marketing
 ---
 
 A Domain Name is like an address book of the internet. How is a customer or client supposed to find you if you don't an address. 

@@ -1,9 +1,9 @@
 ---
 title: Top 11 Most Useful Tmux commands
 description: Unleash the power of tmux with these 10 powerful commands
-date: 2021-08-01
-tags: linux
-layout: layouts/post.njk
+tags: 
+  - linux
+  - tmux
 ---
 
 Tmux is a very powerful commandline tool for managing multple terminal windows and sessions.
