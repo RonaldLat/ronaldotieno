@@ -5,7 +5,7 @@ export default {
     return { articles: {} }
   },
   async fetch({ $content }) {
-this.articles = await $content('articles').fetch()
+this.articles = await this.$http.$get('https://api.nuxtjs.dev/posts')
     
   },
 
