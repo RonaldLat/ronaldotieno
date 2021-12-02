@@ -2,12 +2,13 @@
 export default {
   layout: 'bloglayout',
   data() {
-    return { articles: {} }
+    return { articles: [] }
   },
   async fetch({ $content }) {
-    const { data } = await $content('articles', {deep: true}).fetch()
+this.menus = await $content('articles').fetch()
+    
 
-    this.articles = data
+    
   },
 
   methods: {
