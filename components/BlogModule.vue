@@ -5,7 +5,7 @@ export default {
     return { articles: [] }
   },
   async fetch({ $content }) {
-this.menus = await $content('articles').fetch()
+this.articles = await $content('articles').fetch()
     
 
     
@@ -27,6 +27,7 @@ this.menus = await $content('articles').fetch()
 <template>
   <div>
     <p>blog module</p>
+<p> {{ articles }}</p>
     <div v-for="article in articles" :key="article.index">
     <span> #{{ article }}</span>
     </div>
