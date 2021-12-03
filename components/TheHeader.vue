@@ -1,5 +1,5 @@
 <template>
-  <header class="w-full max-w-full overflow-x-hidden ">
+  <header class="w-full  overflow-x-hidden ">
   
 
     <Nav />

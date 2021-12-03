@@ -5,7 +5,14 @@ export default {
 // Tailwind config
     tailwindcss: {
     config: {
-      plugins: [tailwindTypography]
+      plugins: [tailwindTypography],
+      theme: {
+        extend: {
+          minHeight: {
+            '1/2': '50vh'
+          }
+        }
+      }
     }
   },
 

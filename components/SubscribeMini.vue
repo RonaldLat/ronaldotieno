@@ -1,11 +1,11 @@
 <template>
-  <form class="flex flex-row items-center w-full max-w-full mb-4">
+  <form class="flex flex-wrap gap-2 flex-row items-center w-full max-w-xl mb-4">
    
     <input
       placeholder="Email"
       required=""
       type="text"
-      class="flex-grow h-12 px-4 mr-2 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none md:mr-2 md:mb-0 focus:border-purple-400 focus:outline-none focus:shadow-outline"
+      class="flex-grow  h-12 px-4 mr-2 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none md:mr-2 md:mb-0 focus:border-purple-400 focus:outline-none focus:shadow-outline"
     />
     <button
       type="submit"

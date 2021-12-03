@@ -1,16 +1,15 @@
 <script>
 export default {
   layout: 'bloglayout',
-  async asyncData({ $content, params }) {
-    const articles = await $content('articles')
+  data() {
+    return { articles: {} }
+  },
+  async fetch() {
+    this.articles = await this.$content('articles')
       .only(['title', 'description', 'img', 'slug', 'tags', 'createdAt'])
       .sortBy('createdAt', 'asc')
-      .limit(2)
+      .limit(5)
       .fetch()
-
-    return {
-      articles,
-    }
   },
 
   methods: {
@@ -23,9 +22,8 @@ export default {
 </script>
 
 <template>
-  <div class="w-full px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+  <div class="w-full px-0   lg:max-w-screen-xl md:px-2 lg:px-0 ">
 
-    <AllPostsHeader />
 
     <ul class="grid gap-3 lg:gap-4">
       <li
@@ -85,3 +83,4 @@ export default {
     </ul>
   </div>
 </template>
+
