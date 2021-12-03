@@ -27,6 +27,7 @@ export default {
               <span class="text-right text-gray-400">
                 {{ formatDate(article.createdAt) }}
               </span> 
+
             </div>
             <h3 class="mb-3 font-semibold leading-tight text-md">
               {{ article.title }}
