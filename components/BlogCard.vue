@@ -23,14 +23,7 @@ export default {
             <div
               class="grid w-full grid-cols-2 pb-4 text-xs font-semibold text-gray-500 capitalize"
             >
-              <div>
-                <span
-                  v-for="tag in article.tags"
-                  :key="tag.index"
-                  class="inline-block p-1 mr-1 text-gray-600 lowercase transition duration-300 bg-purple-200 rounded-md hover:bg-purple-400"
-                  >{{ tag }}</span
-                >
-              </div>
+              
               <!-- <span class="text-right text-gray-400">
                 {{ formatDate(article.createdAt) }}
               </span> -->
