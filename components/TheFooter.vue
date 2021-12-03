@@ -1,5 +1,5 @@
 <template>
-  <footer class="w-full px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 text-gray-200 bg-gray-900 flex flex-col gap-2 ">
+  <footer class="w-full px-4 py-16 lg:px-48    md:px-24 lg:px-8 lg:py-20 text-gray-200 bg-gray-900 flex flex-col gap-2 ">
     <p class="uppercase text-gray-400 text-sm font-bold tracking-wide">
       subscribe
     </p>
