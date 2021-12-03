@@ -1,5 +1,5 @@
 <template>
-  <form class="flex gap-2 flex-row items-center w-full max-w-xl mb-4">
+  <form class="flex gap-5 flex-row items-center w-full max-w-xl mb-4">
    
     <input
       placeholder="Email"
