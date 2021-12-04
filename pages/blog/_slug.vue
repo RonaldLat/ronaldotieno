@@ -23,13 +23,15 @@ layout: 'bloglayout',
 </script>
 
 <template>
-  <article class="prose min-w-full px-8 pb-10 prose-indigo">
+  <article class="prose  px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-md md:px-24 lg:px-8 lg:py-20 pb-10 prose-indigo">
     <h1 >{{ article.title }}</h1>
-    <p>{{ article.description }}</p>
+    <p class="font-semibold">Article last updated: {{ formatDate(article.updatedAt) }}</p>
+
     <img class="rounded-md w-full h-auto p-3 min-h-56" :src="'/'+article.img" :alt="article.alt" />
-    <p class="">Article last updated: {{ formatDate(article.updatedAt) }}</p>
     <nuxt-content :document="article" />
 
+<div class="pt-8">
     <prev-next :prev="prev" :next="next" />
+</div>
   </article>
 </template>

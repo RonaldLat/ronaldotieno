@@ -18,8 +18,7 @@
         What <span class="text-purple-400">i can offer</span> to your business
       </h2>
       <p class="text-base text-left text-gray-700 md:text-lg">
-        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-        accusantium doloremque rem aperiam, eaque ipsa quae.
+        Here are some of the ways I can bring value to your business of professional practice;
       </p>
     </div>
     <div
@@ -31,8 +30,8 @@
         <div class="h-full p-5 border border-l-0 rounded-r shadow-sm">
           <h6 class="mb-2 font-semibold leading-5">SEO</h6>
           <p class="text-sm text-gray-900">
-            Sportacus andrew weatherall goose Refined gentlemen super mario des
-            lynam alpha trion zap rowsdower.
+            80% of web traffic comes from search engines. <br>
+            Is your website optimized for search engines?
           </p>
         </div>
       </div>
@@ -40,9 +39,9 @@
         class="duration-300 transform bg-white border-l-4 border-purple-400 hover:-translate-y-2"
       >
         <div class="h-full p-5 border border-l-0 rounded-r shadow-sm">
-          <h6 class="mb-2 font-semibold leading-5">Skate ipsum dolor</h6>
+          <h6 class="mb-2 font-semibold leading-5">Web Design</h6>
           <p class="text-sm text-gray-900">
-            Bulbasaur Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Great web design guides users to where they want to go in your website and it  will make them take you seriously too.
           </p>
         </div>
       </div>
@@ -50,10 +49,10 @@
         class="duration-300 transform bg-white border-l-4 border-purple-400 hover:-translate-y-2"
       >
         <div class="h-full p-5 border border-l-0 rounded-r shadow-sm">
-          <h6 class="mb-2 font-semibold leading-5">Baseball ipsum dolor</h6>
+          <h6 class="mb-2 font-semibold leading-5">Content Marketing</h6>
           <p class="text-sm text-gray-900">
-            Bro ipsum dolor sit amet gaper backside single track, manny Bike
-            epic clipless. Schraeder drop gondy.
+            Content is King!
+            Good content will educate, inform and convince your visitors to do business with you.
           </p>
         </div>
       </div>
@@ -61,17 +60,16 @@
         class="duration-300 transform bg-white border-l-4 border-purple-400 hover:-translate-y-2"
       >
         <div class="h-full p-5 border border-l-0 rounded-r shadow-sm">
-          <h6 class="mb-2 font-semibold leading-5">They urge you</h6>
+          <h6 class="mb-2 font-semibold leading-5">Web Applications</h6>
           <p class="text-sm text-gray-900">
-            A flower in my garden, a mystery in my panties. Heart attack never
-            stopped old Big Bear.
+            Static web pages that only display your business' information sometimes isn't enough. This is where Web Apps come in.
           </p>
         </div>
       </div>
     </div>
     <div class="text-center">
       <a
-        href="/"
+        href="/blog"
         class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 bg-purple-400 rounded shadow-md md:w-auto hover:bg-purple-700 focus:shadow-outline focus:outline-none"
       >
         Learn more

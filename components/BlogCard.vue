@@ -6,6 +6,15 @@ export default {
       required: true,
     },
   },
+
+
+  methods: {
+    formatDate(date) {
+      const options = { year: 'numeric', month: 'long', day: 'numeric' }
+      return new Date(date).toLocaleDateString('en', options)
+    },
+  },
+
 }
 </script>
 
@@ -19,25 +28,18 @@ export default {
             :src="'/' + article.img"
             class="block object-cover w-2/5 h-24 bg-black rounded"
           />
-          <div class="w-3/5 pl-3">
+          <div class="w-3/5 flex justify-between flex-col  pl-3">
             <div
-              class="grid w-full grid-cols-2 pb-4 text-xs font-semibold text-gray-500 capitalize"
+              class="grid grid-cols-1 pb-1 text-xs font-semibold text-gray-500 capitalize"
             >
-              <div>
-                <span
-                  v-for="tag in article.tags"
-                  :key="tag.index"
-                  class="inline-block p-1 mr-1 text-gray-600 lowercase transition duration-300 bg-purple-200 rounded-md hover:bg-purple-400"
-                  >{{ tag }}</span
-                >
-              </div>
-              <!-- <span class="text-right text-gray-400">
+              <span class="text-gray-500 justify-self-end">
                 {{ formatDate(article.createdAt) }}
-              </span> -->
+              </span>
             </div>
-            <h3 class="mb-3 font-semibold leading-tight text-md">
+            <h3 class="mb-3 font-bold leading-tight text-md">
               {{ article.title }}
             </h3>
+            <div class="grid grid-cols-2">
             <div
               class="flex items-center w-full text-xs font-medium text-gray-500"
             >
@@ -48,7 +50,11 @@ export default {
                   background-size: cover;
                 "
               ></div>
-              <div>Ronald Otieno</div>
+              <div class="text-purple500 underline">Ronald Otieno</div>
+            </div>
+              <span class="text-gray-500 text-xs justify-self-end">
+                read time 4mins
+              </span>
             </div>
           </div>
         </NuxtLink>

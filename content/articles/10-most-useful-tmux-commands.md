@@ -1,6 +1,8 @@
 ---
 title: Top 11 Most Useful Tmux commands
 description: Unleash the power of tmux with these 10 powerful commands
+img: tmux.webp
+alt: screenshot of tmux running
 tags: 
   - linux
   - tmux

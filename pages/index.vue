@@ -6,6 +6,7 @@
     <Misc />
     <Portofolio />
     <BlogModule />
+    <Contact />
   </div>
 </template>
 

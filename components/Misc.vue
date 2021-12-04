@@ -25,65 +25,74 @@
             To be efficient and productive in what I do, I have carefully picked the tools that will help me accomplish my tasks fast.
           </p>
         </div>
-        <div>
-          <a
-            href="/"
-            aria-label=""
-            class="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-purple-800"
-          >
-            Learn more
-            <svg
-              class="inline-block w-3 ml-2"
-              fill="currentColor"
-              viewBox="0 0 12 12"
-            >
-              <path
-                d="M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l5-5A1,1,0,0,0,9.707,5.293Z"
-              ></path>
-            </svg>
-          </a>
-        </div>
       </div>
       <div
         class="  lg:pl-8"
       >
         <div class="grid grid-cols-1 grid-rows-3 px-0 gap-2 place-items-start">
+        <div class="flex flex-col">
           <img
             class="object-cover w-20 h-20 rounded shadow-lg sm:h-32 xl:h-40 sm:w-32 xl:w-40"
             src="js.svg"
             alt=""
           />
+            <span class="text-xs">Javascript</span>
+            </div>
 
           <div class="flex gap-2">
+            <div class="flex flex-col">
             <img
               class="object-cover w-20 h-20 rounded shadow-lg sm:h-32 xl:h-40 sm:w-32 xl:w-40"
               src="favicon.ico"
               alt=""
             />
+            <span class="text-xs">Nuxt.js</span>
+            </div>
+            <div class="flex flex-col">
             <img
               class="object-contain row-start-3 w-20 h-20 rounded shadow-lg sm:h-32 xl:h-40 sm:w-32 xl:w-40"
               src="vue.svg"
               alt=""
             />
+            <span class="text-xs">Vue</span>
+            </div>
           </div>
 
           <div class="flex gap-2">
+            <div class="flex flex-col">
             <img
               class="object-cover w-20 h-20 rounded row-start-3 shadow-lg sm:h-32 xl:h-40 sm:w-32 xl:w-40"
               src="ubuntu-4.svg"
               alt=""
             />
+            <span class="text-xs">Linux/Ubuntu</span>
+            </div>
+
+            <div class="flex flex-col">
             <img
               class="object-contain w-20 h-20 row-start-2 rounded shadow-lg sm:h-32 xl:h-40 sm:w-32 xl:w-40"
-              src="css.svg"
-              alt=""
+              src="tailwind.svg"
+              alt="tailwind logo"
             />
+            <span class="text-xs">Tailwind CSS</span>
+            </div>
 
+            <div class="flex flex-col">
             <img
               class="object-contain w-20 h-20 row-start-3 col-start-3 rounded shadow-lg sm:h-32 xl:h-40 sm:w-32 xl:w-40"
-              src="nuxt-logo-dark.svg"
-              alt=""
+              src="firebase-logo.svg"
+              alt="firebase logo"
             />
+            <span class="text-xs">Firebase</span>
+            </div>
+            <div class="flex flex-col">
+            <img
+              class="object-contain text-black w-20 h-20 row-start-3 col-start-3 rounded shadow-lg sm:h-32 xl:h-40 sm:w-32 xl:w-40"
+              src="github.svg"
+              alt="github logo"
+            />
+            <span class="text-xs">Git/Github</span>
+            </div>
           </div>
         </div>
       </div>

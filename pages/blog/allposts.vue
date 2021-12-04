@@ -4,8 +4,8 @@ export default {
   async asyncData({ $content, params }) {
     const articles = await $content('articles')
       .only(['title', 'description', 'img', 'slug', 'tags', 'createdAt'])
-      .sortBy('createdAt', 'asc')
-      .limit(2)
+      .sortBy('createdAt', 'desc')
+      .limit(9)
       .fetch()
 
     return {
@@ -41,19 +41,11 @@ export default {
             :src="'/' + article.img"
             class="block object-cover w-2/5 h-24 bg-black rounded"
           />
-          <div class="w-3/5 pl-3">
+          <div class="w-3/5 flex justify-between flex-col  pl-3">
             <div
-              class="grid grid-cols-2 pb-4 text-xs font-semibold text-gray-500 capitalize"
+              class="grid grid-cols-1 pb-1 text-xs font-semibold text-gray-500 capitalize"
             >
-              <div class="flex space-x-1">
-                <span
-                  v-for="tag in article.tags"
-                  :key="tag.index"
-                  class="inline-flex p-1 text-gray-600 lowercase transition duration-300 bg-purple-200 rounded-md hover:bg-purple-400"
-                  >#{{ tag }}</span
-                >
-              </div>
-              <span class="text-gray-400 justify-self-end">
+              <span class="text-gray-500 justify-self-end">
                 {{ formatDate(article.createdAt) }}
               </span>
             </div>

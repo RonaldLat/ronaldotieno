@@ -1,45 +1,96 @@
 <template>
-<form class="w-full max-w-lg">
-  <div class="flex flex-wrap -mx-3 mb-6">
-    <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-      <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
-        First Name
-      </label>
-      <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Jane">
-      <p class="text-red-500 text-xs italic">Please fill out this field.</p>
-    </div>
-    <div class="w-full md:w-1/2 px-3">
-      <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">
-        Last Name
-      </label>
-      <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text" placeholder="Doe">
-    </div>
-  </div>
-  <div class="flex flex-wrap -mx-3 mb-6">
-    <div class="w-full px-3">
-      <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-password">
-        E-mail
-      </label>
-      <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="email" type="email">
-      <p class="text-gray-600 text-xs italic">Some tips - as long as needed</p>
-    </div>
-  </div>
-  <div class="flex flex-wrap -mx-3 mb-6">
-    <div class="w-full px-3">
-      <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-password">
-        Message
-      </label>
-      <textarea class=" no-resize appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none" id="message"></textarea>
-      <p class="text-gray-600 text-xs italic">Re-size can be disabled by set by resize-none / resize-y / resize-x / resize</p>
-    </div>
-  </div>
-  <div class="md:flex md:items-center">
-    <div class="md:w-1/3">
-      <button class="shadow bg-teal-400 hover:bg-teal-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="button">
-        Send
+<div>
+        <div class="max-w-xl mb-6 px-4 py-0 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+          <div>
+            <p
+              class="inline-block w-full px-3  pl-0 mb-4 text-xs font-semibold tracking-wider text-left text-teal-900 uppercase rounded-full"
+            >
+              contact
+            </p>
+          </div>
+          </div>
+
+  <div
+    class="relative md:grid grid-cols-2 place-items-center  px-4 py-0 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pb-20"
+  >
+
+<ContactDetails />
+
+    <form class=" w-full space-y-2 md:space-y-4  md:bg-gray-400 lg:px-8 py-4 md:py-20  lg:py-4 px-2  mx-auto xs:pt-4">
+    <h3 class="text-xl tracking-wide font-bold">Send me a message:</h3>
+      <div class="flex flex-col ">
+        <label
+          for="name"
+          type="text"
+          class="text-gray-800 dark:text-gray-100 text-sm font-bold leading-tight tracking-normal mb-2"
+          >Name</label
+        >
+        <input
+          id="email"
+          class="text-gray-600 dark:text-gray-400 focus:outline-none focus:border focus:border-indigo-700 dark:focus:border-indigo-700 dark:border-gray-700 dark:bg-gray-800 bg-white font-normal w-full h-10 flex items-center pl-3 text-sm border-gray-300 rounded border shadow"
+          placeholder="Enter your name"
+        />
+      </div>
+      <div class="flex flex-col ">
+        <label
+          for="email"
+          class="text-gray-800 dark:text-gray-100 text-sm font-bold leading-tight tracking-normal mb-2"
+          >Email</label
+        >
+        <input
+          id="email"
+          class="text-gray-600 dark:text-gray-400 focus:outline-none focus:border focus:border-indigo-700 dark:focus:border-indigo-700 dark:border-gray-700 dark:bg-gray-800 bg-white font-normal w-full h-10 flex items-center pl-3 text-sm border-gray-300 rounded border shadow"
+          placeholder="Enter email"
+        />
+      </div>
+
+      <div class="flex flex-col ">
+        <label
+          for="phone"
+          type="tel"
+          class="text-gray-800 dark:text-gray-100 text-sm font-bold leading-tight tracking-normal mb-2"
+          >Phone</label
+        >
+        <input
+          id="email"
+          class="text-gray-600 dark:text-gray-400 focus:outline-none focus:border focus:border-indigo-700 dark:focus:border-indigo-700 dark:border-gray-700 dark:bg-gray-800 bg-white font-normal w-full h-10 flex items-center pl-3 text-sm border-gray-300 rounded border shadow"
+          placeholder="Placeholder"
+        />
+      </div>
+
+      <div class="flex flex-col">
+        <label class="text-sm  font-semibold text-gray-800 mb-2" for="message"
+          >Message</label
+        >
+        <textarea
+          id="message"
+          placeholder=""
+          name="message"
+          class="border-gray-300 w-full border mb-4 rounded py-2 text-sm outline-none resize-none px-3 focus:border focus:border-indigo-700"
+          rows="8"
+        ></textarea>
+      </div>
+      <button
+        class="bg-purple-600 hover:bg-purple-400 gap-4 text-gray-200 font-bold py-2 px-4 rounded inline-flex w-full justify-center items-center"
+      >
+        <!-- Please refer: https://github.com/shubhamjain/svg-loader -->
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-6 w-6"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+          />
+        </svg>
+        <span class="text-gray-200 ">Send message</span>
       </button>
-    </div>
-    <div class="md:w-2/3"></div>
+    </form>
   </div>
-</form>
+</div>
 </template>

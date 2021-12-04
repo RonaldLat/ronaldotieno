@@ -12,7 +12,7 @@
     </h3>
     <div class="w-full text-center pt-4">
       <form action="#">
-        <div class="max-w-xl mx-auto p-1 pr-0 flex flex-wrap items-center">
+        <div class="max-w-xl gap-4 mx-auto p-1 pr-0 flex flex-wrap items-center">
           <input
             type="email"
             placeholder="youremail@example.com"
@@ -20,7 +20,7 @@
           />
           <button
             type="submit"
-            class="flex-1 mt-4 md:mt-0 block md:inline-block appearance-none bg-purple-500 text-white text-base font-semibold tracking-wider uppercase py-4 rounded shadow hover:bg-purple-400"
+            class="flex-1 px-1   block md:inline-block appearance-none bg-purple-500 text-white text-base font-semibold tracking-wider uppercase py-4 rounded shadow hover:bg-purple-400"
           >
             Subscribe
           </button>
