@@ -48,7 +48,7 @@
         <div class="flex flex-col items-end">
           <a
             href="/"
-            class="inline-flex items-center justify-center px-6 font-medium tracking-wide text-white transition duration-200 bg-purple-400 rounded shadow-md h-9 md:h-12 justify-self-end w-max hover:bg-purple-700 focus:shadow-outline focus:outline-none"
+            class="inline-flex items-center justify-center px-6 font-medium tracking-wide text-white transition duration-200 bg-purple-500 rounded shadow-md h-9 md:h-12 justify-self-end w-max hover:bg-purple-700 focus:shadow-outline focus:outline-none"
             aria-label="Sign up"
             title="Hire me"
           >
