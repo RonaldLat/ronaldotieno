@@ -45,9 +45,9 @@ You jump into someone else's project whom hopefully uses Tailwind, the classes s
 <div class="bg-red text-white px-0"> content </div>
 ```
 The example above would mean:
-- bg-red -> background is red 
-- text-white -> text is white
-- px-0 -> padding left and right is set to 0px
+* bg-red -> background is red 
+* text-white -> text is white
+* px-0 -> padding left and right is set to 0px
 
 You will agree with that this is way better than coming up with random names, then jumping back and forth between css and html files. 
 This is more efficient and saves us a lot of time. 
@@ -64,14 +64,14 @@ As I coded I kept wishing that the lines could stop adding up, by they didn't.
 Then I discovered **Sass**, and I thought I had found the silver bullet to kill the many lines I had in my CSS files with. It helped a bit but it created another problem, I had to deal with a lot of files of the UI components. 
 
 My typical SCSS file structure of a normal project would look like this:
-- footer.scss 
-- header.scss 
-- pagination.scss 
-- contact.scss 
-- testimonials.scss
-- blog.scss 
-- carousel.scss 
-- nav.scss 
+* footer.scss 
+* header.scss 
+* pagination.scss 
+* contact.scss 
+* testimonials.scss
+* blog.scss 
+* carousel.scss 
+* nav.scss 
 
 You can imagine the headache I got while cyling through all these files and trying to make sense of each one of them. 
 
@@ -92,12 +92,12 @@ Comprehending and writing media queries is hectic. Thanks to Tailwind CSS we don
 Almost all Tailwind utility classes can be applied conditionally at different screen breaking points. This means we don't have to create separate styling rules to make our designs responsive. 
 
 Here are the default break points it offers: 
-- xs: screens smaller than 640px
-- sm: 640px
-- md: 768px
-- lg: 1024px
-- xl: 1280px
-- 2xl: 1536px
+* xs: screens smaller than 640px
+* sm: 640px
+* md: 768px
+* lg: 1024px
+* xl: 1280px
+* 2xl: 1536px
 
 The abbreviations stand for extra-small, medium, large, extra-large and 2extra-large respectively. 
 
