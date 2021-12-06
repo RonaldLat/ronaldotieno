@@ -2,12 +2,12 @@
 # https://github.com/firebase/firebase-tools
 
 name: Deploy to Firebase Hosting on Push
+continue-on-error: true
 'on': push
 jobs:
   build_and_preview:
     runs-on: ubuntu-latest
     steps:
-      - continue-on-error: true
       - uses: actions/checkout@v2
       - run: npn run generate
       
