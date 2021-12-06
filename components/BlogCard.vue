@@ -4,6 +4,7 @@ export default {
     article: {
       type: Object,
       required: true,
+      default: ()=>{}
     },
   },
 
@@ -22,6 +23,7 @@ export default {
   <div class="w-full ">
         <NuxtLink
           :to="{ name: 'blog-slug', params: { slug: article.slug } }"
+          :aria-label="`Read  - ${article.title}`"
           class="flex w-full "
         >
           <img

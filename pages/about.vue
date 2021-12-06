@@ -2,7 +2,6 @@
 <template>
   <div>
   <p>about page</p>
-  <BlogCard />
   </div>
 </template>
 

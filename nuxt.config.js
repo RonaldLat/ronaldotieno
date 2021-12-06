@@ -20,20 +20,81 @@ export default {
   target: 'static',
 
   // Global page headers: https://go.nuxtjs.dev/config-head
-  head: {
-    title: 'Ronald Otieno\'s Website',
+   head: {
+    title: '',
+    titleTemplate: '%s Ronald Otieno Blog',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'en',
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' }
+      {
+        hid: 'description',
+        name: 'description',
+        content:
+          'Personal corner on the internet where I share my thoughts on various topics, learnings, new discoveries & development.',
+      },
+      // OG
+      { property: 'og:site_name', content: 'Ronald Otieno Blog' },
+      { hid: 'og:type', property: 'og:type', content: 'website' },
+      {
+        hid: 'og:url',
+        property: 'og:url',
+        content: siteUrl,
+      },
+      {
+        hid: 'og:title',
+        property: 'og:title',
+        content: 'Ronald Otieno Blog',
+      },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content:
+          'Personal corner on the internet where I share my thoughts on various topics, learnings, new discoveries & development.',
+      },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: `${siteUrl}/lat2-smaller.png`,
+      },
+      { property: 'og:image:width', content: '1200' },
+      { property: 'og:image:height', content: '627' },
+
+      // Twitter card
+      { name: 'twitter:site', content: '@Ron_Lats' },
+      { name: 'twitter:card', content: 'summary_large_image' },
+      {
+        hid: 'twitter:url',
+        name: 'twitter:url',
+        content: siteUrl,
+      },
+      {
+        hid: 'twitter:title',
+        name: 'twitter:title',
+        content: 'Ronald Otieno Blog',
+      },
+      {
+        hid: 'twitter:description',
+        name: 'twitter:description',
+        content:
+          'Personal corner on the internet where I share my thoughts on various topics, learnings, new discoveries & development.',
+      },
+      {
+        hid: 'twitter:image',
+        name: 'twitter:image',
+        content: `${siteUrl}/lat2-smaller.png`,
+      },
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }
-    ]
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
+      {
+        hid: 'canonical',
+        rel: 'canonical',
+        href: siteUrl,
+      },
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
