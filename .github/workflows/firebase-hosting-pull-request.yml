@@ -6,7 +6,6 @@ name: Deploy to Firebase Hosting on Push
 - continue-on-error: true
 jobs:
   build_and_preview:
-    
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
