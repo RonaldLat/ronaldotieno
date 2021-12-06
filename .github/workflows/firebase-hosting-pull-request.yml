@@ -6,10 +6,9 @@ name: Deploy to Firebase Hosting on Push
 jobs:
   build_and_preview:
     runs-on: ubuntu-latest
-    continue-on-error: true
     steps:
       - uses: actions/checkout@v2
-      - run: npn run generate
+      - run: npm run generate
       
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
