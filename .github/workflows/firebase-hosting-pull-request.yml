@@ -36,4 +36,4 @@ jobs:
       run: npm run deploy
       env:
         CI: true
-        FIREBASE_TOKEN: ${{ secrets.FIREBASE_11TY }}
+        FIREBASE_TOKEN: ${{ secrets.RO }}
