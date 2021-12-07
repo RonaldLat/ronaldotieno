@@ -26,6 +26,7 @@ export default {
         >
           <img
             :src="'/' + article.img"
+	    :alt="article.alt"
             class="block object-cover w-2/5 h-24 bg-black rounded"
           />
           <div class="w-3/5 flex justify-between flex-col  pl-3">
