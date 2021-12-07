@@ -42,6 +42,7 @@
           >
           <input
             id="email"
+	    aria-label="email address"
             class="text-gray-600 dark:text-gray-400 focus:outline-none focus:border focus:border-indigo-700 dark:focus:border-indigo-700 dark:border-gray-700 dark:bg-gray-800 bg-white font-normal w-full h-10 flex items-center pl-3 text-sm border-gray-300 rounded border shadow"
             placeholder="Enter email"
           />
@@ -55,9 +56,10 @@
             >Phone</label
           >
           <input
-            id="email"
+            id="phone"
+	    aria-label="phone number"
             class="text-gray-600 dark:text-gray-400 focus:outline-none focus:border focus:border-indigo-700 dark:focus:border-indigo-700 dark:border-gray-700 dark:bg-gray-800 bg-white font-normal w-full h-10 flex items-center pl-3 text-sm border-gray-300 rounded border shadow"
-            placeholder="Placeholder"
+            placeholder="Enter phone number"
           />
         </div>
 
@@ -67,6 +69,7 @@
           >
           <textarea
             id="message"
+	    aria-label="message"
             placeholder=""
             name="message"
             class="border-gray-300 w-full border mb-4 rounded py-2 text-sm outline-none resize-none px-3 focus:border focus:border-indigo-700"
