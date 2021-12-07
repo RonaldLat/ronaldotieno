@@ -34,7 +34,7 @@
           <span class="inline-block text-deep-purple-accent-400">Kisumu</span>
         </h2>
         <p class="pr-5 mb-5 text-base text-gray-700 md:text-lg">
-          I'm <span class="text-purple-500">Ronald Otieno</span> — a web developer based in Kisumu, Kenya specializing in building, Websites and Web Applications that get you desired results.
+          I'm <span class="text-purple-600">Ronald Otieno</span> — a web developer based in Kisumu, Kenya specializing in building, Websites and Web Applications that get you desired results.
         </p>
 
         <SubscribeMini />
