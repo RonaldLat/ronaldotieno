@@ -1,3 +1,5 @@
+const siteUrl = process.env.BASE_URL || 'http://localhost:3000'
+
 import tailwindTypography from '@tailwindcss/typography'
 
 export default {

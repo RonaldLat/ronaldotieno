@@ -10,7 +10,7 @@
         <li><a href="/blog">blog</a></li>
         <li><a href="/blog/tags">tags</a></li>
       </ul>
-      <div class="w-32 sm:w-36 md:w-52">
+      <div class="  w-32 sm:w-36 md:w-52">
         <SearchInput />
       </div>
     </nav>
