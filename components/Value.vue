@@ -15,7 +15,7 @@
       <h2
         class="w-full mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-left text-gray-900 sm:text-4xl md:mx-auto"
       >
-        What <span class="text-purple-400">i can offer</span> to your business
+        What <span class="text-purple-600">i can offer</span> to your business
       </h2>
       <p class="text-base text-left text-gray-700 md:text-lg">
         Here are some of the ways I can bring value to your business of professional practice;

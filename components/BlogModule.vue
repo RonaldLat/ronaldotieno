@@ -6,7 +6,7 @@ export default {
   },
   async fetch() {
     this.articles = await this.$content('articles')
-      .only(['title', 'description', 'img', 'slug', 'tags', 'createdAt'])
+      .only(['title', 'description', 'img', 'alt', 'slug', 'tags', 'createdAt'])
       .sortBy('createdAt', 'desc')
       .limit(3)
       .fetch()
@@ -48,7 +48,7 @@ export default {
       <div class="text-center pt-16">
         <a
           href="/blog/allposts"
-          aria-label=""
+          aria-label="all articles list"
           class="inline-flex items-center font-semibold transition-colors duration-200 text-purple-500 hover:text-purple-800"
         >
           See more

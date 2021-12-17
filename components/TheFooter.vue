@@ -10,8 +10,8 @@
       <SubscribeMiniDark />
     </div>
     <ul class="flex gap-3 text-purple-300 capitalize">
-      <li><a href="">Home</a></li>
-      <li><a href="">Portofolio</a></li>
+      <li><a href="/">Home</a></li>
+      <li><a href="portofolio">Portofolio</a></li>
       <li><a href="/blog">Blog</a></li>
     </ul>
     <SocialLinks />
