@@ -22,12 +22,12 @@
     >
       <div class="mb-16 lg:my-40 lg:max-w-lg lg:pr-5">
         <p
-          class="inline-block w-full py-px mb-4 text-xs font-semibold tracking-wider uppercase"
+          class="inline-block w-full py-px mb-4 text-xs font-[Belleza] font-semibold tracking-wider uppercase"
         >
           who am i?
         </p>
         <h2
-          class="mb-5 font-[Belleza] text-3xl font-bold first-letter:text-6xl first-letter:text-purple-600 tracking-widest  text-gray-900 sm:text-4xl sm:leading-none"
+          class="mb-5 font-[Belleza] text-4xl font-bold first-letter:text-6xl first-letter:text-purple-600 tracking-widest  text-gray-900 sm:text-4xl sm:leading-none"
         >
           A web developer<br class="hidden md:block" />
           based in

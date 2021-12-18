@@ -18,9 +18,9 @@
             <li></li>
             <li>
               <a
-                href="/"
-                aria-label="Our product"
-                title="Our product"
+              href="/about"
+              aria-label="About me"
+                title="About me"
                 class="font-medium tracking-wide transition-colors duration-200 hover:text-teal-accent-400"
                 >About</a
               >

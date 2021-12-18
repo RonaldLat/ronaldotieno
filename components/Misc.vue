@@ -7,7 +7,7 @@
         <div class="max-w-xl mb-6">
           <div>
             <p
-              class="inline-block w-full px-3 py-px pl-0 mb-4 text-xs font-semibold tracking-wider text-left text-gray-700 uppercase rounded-full"
+              class="inline-block font-[Play] w-full px-3 py-px pl-0 mb-4 text-xs font-semibold tracking-wider text-left text-gray-700 uppercase rounded-full"
             >
               tools
             </p>

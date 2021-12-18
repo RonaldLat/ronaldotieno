@@ -9,7 +9,7 @@
     />
     <button
       type="submit"
-      class="items-center justify-center h-12 px-6 text-sm tracking-wide text-white bg-purple-500 rounded shadow-md transition duration-200 w-max md:text-md font-xs md:w-auto hover:bg-purple-700 focus:shadow-outline focus:outline-none"
+      class="items-center justify-center w-auto h-12 px-6 text-sm tracking-wide text-white bg-purple-500 rounded shadow-md transition duration-200 w-max md:text-md font-xs md:w-auto hover:bg-purple-700 focus:shadow-outline focus:outline-none"
     >
       subscribe
     </button>

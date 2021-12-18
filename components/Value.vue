@@ -7,13 +7,13 @@
     <div class="max-w-xl mb-10 sm:text-center lg:max-w-2xl md:mb-12">
       <div>
         <p
-          class="inline-block w-full px-3 py-px pl-0 mb-4 text-xs font-semibold tracking-wider text-left text-gray-700 uppercase rounded-full"
+          class="inline-block w-full px-3 py-px pl-0 mb-4 text-xs font-semibold tracking-wider text-left font-[Play] text-gray-700 uppercase rounded-full"
         >
           my skills
         </p>
       </div>
       <h2
-        class="w-full mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-left text-gray-900 font-[Coco] sm:text-4xl md:mx-auto"
+        class="w-full mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-left text-gray-900 font-[Play] sm:text-4xl md:mx-auto"
       >
         What <span class="text-purple-600">i can offer</span> to your business
       </h2>

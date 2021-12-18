@@ -31,7 +31,7 @@ export default {
   >
     <div>
       <p
-        class="inline-block w-full px-3 py-px pl-0 mb-4 text-xs font-semibold tracking-wider text-left uppercase font-[Belleza]] rounded-full text-gray-700"
+        class="inline-block w-full px-3 py-px pl-0 mb-4 text-xs font-semibold tracking-wider text-left uppercase font-[Play] rounded-full text-gray-700"
       >
         work
       </p>
@@ -39,7 +39,7 @@ export default {
 
     <div class="flex flex-col mb-6 lg:justify-between lg:flex-row md:mb-8">
       <h2
-        class="max-w-lg font-[Belleza] mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none md:mb-6 group"
+        class="max-w-lg font-[Play] mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none md:mb-6 group"
       >
         <span class="inline-block mb-1 sm:mb-4"> Things I have built </span>
         <div
