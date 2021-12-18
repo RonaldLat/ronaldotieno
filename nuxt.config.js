@@ -3,26 +3,29 @@ const siteUrl = process.env.BASE_URL || 'http://localhost:3000'
 import tailwindTypography from '@tailwindcss/typography'
 
 export default {
-
-// Tailwind config
-    tailwindcss: {
+  // Tailwind config
+  tailwindcss: {
     config: {
       plugins: [tailwindTypography],
       theme: {
         extend: {
           minHeight: {
-            '1/2': '50vh'
-          }
-        }
-      }
-    }
+            '1/2': '50vh',
+          },
+        },
+      },
+    },
+  },
+
+  eslint: {
+    cache: false
   },
 
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
   // Global page headers: https://go.nuxtjs.dev/config-head
-   head: {
+  head: {
     title: '',
     titleTemplate: '%s Ronald Otieno Blog',
     htmlAttrs: {
@@ -100,13 +103,10 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [
-
-  ],
+  css: ['@/assets/css/main.css'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [
-  ],
+  plugins: [],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -116,8 +116,25 @@ export default {
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/tailwindcss
-    '@nuxtjs/tailwindcss',
+    '@nuxt/postcss8',
+
+    // google fonts
+    '@nuxtjs/google-fonts'
+
   ],
+
+  //google fonts
+  googleFonts:{
+    families: {
+      Roboto: true,
+      'Josefin+Sans': true,
+      Lato: [100, 300],
+      'Play': true,
+      'Poppins': true,
+      'Belleza': true,
+      'Coco': true,
+    }
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
@@ -130,5 +147,19 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-  }
+    postcss: {
+      plugins: {
+        tailwindcss: {},
+        autoprefixer: {},
+      },
+    },
+
+    loaders: {
+      vue: {
+        prettify: false
+      }
+    }
+
+  },
 }
+

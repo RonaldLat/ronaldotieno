@@ -22,37 +22,23 @@
     >
       <div class="mb-16 lg:my-40 lg:max-w-lg lg:pr-5">
         <p
-          class="inline-block w-full py-px mb-4 text-xs font-semibold tracking-wider  uppercase"
+          class="inline-block w-full py-px mb-4 text-xs font-semibold tracking-wider uppercase"
         >
           who am i?
         </p>
         <h2
-          class="mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none"
+          class="mb-5 font-[Belleza] text-3xl font-bold first-letter:text-6xl first-letter:text-purple-600 tracking-widest  text-gray-900 sm:text-4xl sm:leading-none"
         >
-          Web developer<br class="hidden md:block" />
+          A web developer<br class="hidden md:block" />
           based in
           <span class="inline-block text-deep-purple-accent-400">Kisumu</span>
         </h2>
-        <p class="pr-5 mb-5 text-base text-gray-700 md:text-lg">
-          I'm <span class="text-purple-600">Ronald Otieno</span> — a web developer based in Kisumu, Kenya specializing in building, Websites and Web Applications that get you desired results.
+        <p class="pr-5 mb-5 text-base text-gray-700 md:text-lg ">
+          I'm <span class="text-purple-600" >Ronald Otieno</span> — a web developer based in Kisumu, Kenya specializing in building, Websites and Web Applications that get you desired results.
         </p>
 
         <SubscribeMini />
 
-        <div class="flex items-center">
-          <a
-            href="/"
-            class="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white text-gray-600 transition duration-200 bg-gray-200 border-2 border-purple-400 rounded shadow-lg hover:bg-purple-400 focus:shadow-outline focus:outline-none"
-          >
-            Hire me
-          </a>
-          <a
-            href="/blog/allposts"
-            aria-label=""
-            class="inline-flex items-center font-semibold text-gray-800 text-purple-700 transition-colors duration-200"
-            >My articles</a
-          >
-        </div>
       </div>
     </div>
   </div>

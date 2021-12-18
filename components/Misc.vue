@@ -7,18 +7,18 @@
         <div class="max-w-xl mb-6">
           <div>
             <p
-              class="inline-block w-full px-3 py-px pl-0 mb-4 text-xs font-semibold tracking-wider text-left text-teal-900 uppercase rounded-full"
+              class="inline-block w-full px-3 py-px pl-0 mb-4 text-xs font-semibold tracking-wider text-left text-gray-700 uppercase rounded-full"
             >
               tools
             </p>
           </div>
           <h2
-            class="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none"
+            class="max-w-lg font-[Play] mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none"
           >
             A programmer is<br class="hidden md:block" />
             as good
-            <span class="inline-block text-purple-400"
-              >as the tools he use</span
+            <span class="inline-block text-purple-500"
+              >as the tools he uses</span
             >
           </h2>
           <p class="text-base text-gray-700 md:text-lg">
@@ -27,14 +27,14 @@
         </div>
       </div>
       <div
-        class="  lg:pl-8"
+        class=" lg:pl-8"
       >
-        <div class="grid grid-cols-1 grid-rows-3 px-0 gap-2 place-items-start">
+        <div class="px-0 grid grid-cols-1 grid-rows-3 gap-2 place-items-start">
         <div class="flex flex-col">
           <img
             class="object-cover w-20 h-20 rounded shadow-lg sm:h-32 xl:h-40 sm:w-32 xl:w-40"
             src="js.svg"
-            alt=""
+            alt="javascript logo"
           />
             <span class="text-xs">Javascript</span>
             </div>
@@ -44,15 +44,15 @@
             <img
               class="object-cover w-20 h-20 rounded shadow-lg sm:h-32 xl:h-40 sm:w-32 xl:w-40"
               src="favicon.ico"
-              alt=""
+              alt="nuxtjs logo"
             />
             <span class="text-xs">Nuxt.js</span>
             </div>
             <div class="flex flex-col">
             <img
-              class="object-contain row-start-3 w-20 h-20 rounded shadow-lg sm:h-32 xl:h-40 sm:w-32 xl:w-40"
+              class="object-contain w-20 h-20 rounded shadow-lg row-start-3 sm:h-32 xl:h-40 sm:w-32 xl:w-40"
               src="vue.svg"
-              alt=""
+              alt="vue logo"
             />
             <span class="text-xs">Vue</span>
             </div>
@@ -61,16 +61,16 @@
           <div class="flex gap-2">
             <div class="flex flex-col">
             <img
-              class="object-cover w-20 h-20 rounded row-start-3 shadow-lg sm:h-32 xl:h-40 sm:w-32 xl:w-40"
+              class="object-contain w-20 h-20 rounded shadow-lg row-start-3 sm:h-32 xl:h-40 sm:w-32 xl:w-40"
               src="ubuntu-4.svg"
-              alt=""
+              alt="ubuntu OS logo"
             />
             <span class="text-xs">Linux/Ubuntu</span>
             </div>
 
             <div class="flex flex-col">
             <img
-              class="object-contain w-20 h-20 row-start-2 rounded shadow-lg sm:h-32 xl:h-40 sm:w-32 xl:w-40"
+              class="object-contain w-20 h-20 rounded shadow-lg row-start-2 sm:h-32 xl:h-40 sm:w-32 xl:w-40"
               src="tailwind.svg"
               alt="tailwind logo"
             />
@@ -79,7 +79,7 @@
 
             <div class="flex flex-col">
             <img
-              class="object-contain w-20 h-20 row-start-3 col-start-3 rounded shadow-lg sm:h-32 xl:h-40 sm:w-32 xl:w-40"
+              class="object-contain w-20 h-20 rounded shadow-lg row-start-3 col-start-3 sm:h-32 xl:h-40 sm:w-32 xl:w-40"
               src="firebase-logo.svg"
               alt="firebase logo"
             />
@@ -87,7 +87,7 @@
             </div>
             <div class="flex flex-col">
             <img
-              class="object-contain text-black w-20 h-20 row-start-3 col-start-3 rounded shadow-lg sm:h-32 xl:h-40 sm:w-32 xl:w-40"
+              class="object-contain w-20 h-20 text-black rounded shadow-lg row-start-3 col-start-3 sm:h-32 xl:h-40 sm:w-32 xl:w-40"
               src="github.svg"
               alt="github logo"
             />

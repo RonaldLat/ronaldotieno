@@ -27,7 +27,7 @@ export default {
   >
     <div>
       <p
-        class="inline-block w-full px-3 py-px pl-0 mb-4 text-xs font-semibold tracking-wider text-left text-teal-900 uppercase rounded-full"
+        class="inline-block  font-[Play] w-full px-3 py-px pl-0 mb-4 text-xs font-semibold tracking-wider text-left text-gray-700 uppercase rounded-full"
       >
         blog
       </p>
@@ -45,11 +45,11 @@ export default {
         </li>
       </ul>
 
-      <div class="text-center pt-16">
+      <div class="pt-16 text-center">
         <a
           href="/blog/allposts"
           aria-label="all articles list"
-          class="inline-flex items-center font-semibold transition-colors duration-200 text-purple-500 hover:text-purple-800"
+          class="inline-flex items-center font-semibold text-purple-600 underline decoration-2 transition-colors duration-200 hover:text-purple-800"
         >
           See more
           <svg

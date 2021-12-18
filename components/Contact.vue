@@ -1,11 +1,11 @@
 <template>
   <div class="pb-36">
     <div
-      class="max-w-xl mb-6 px-4 py-0 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8"
+      class="max-w-xl px-4 py-0 mx-auto mb-6 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8"
     >
       <div>
         <p
-          class="inline-block w-full px-3 pl-0 mb-4 text-xs font-semibold tracking-wider text-left text-teal-900 uppercase rounded-full"
+          class="inline-block w-full px-3 pl-0 mb-4 text-xs font-semibold tracking-wider text-left text-gray-700 uppercase rounded-full"
         >
           contact
         </p>
@@ -13,38 +13,38 @@
     </div>
 
     <div
-      class="relative md:grid grid-cols-2 place-items-center px-4 py-0 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pb-20"
+      class="relative px-4 py-0 mx-auto md:grid grid-cols-2 place-items-center sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pb-20"
     >
       <ContactDetails />
 
       <form
-        class="w-full space-y-2 md:space-y-4 md:bg-gray-400 lg:px-8 py-4 md:py-20 lg:py-4 px-2 mx-auto xs:pt-4"
+        class="w-full px-2 py-4 mx-auto space-y-2 md:space-y-4 md:bg-gray-400 lg:px-8 md:py-20 lg:py-4 xs:pt-4"
       >
-        <h3 class="text-xl tracking-wide font-bold">Send me a message:</h3>
+        <h3 class="text-xl font-bold tracking-wide">Send me a message:</h3>
         <div class="flex flex-col">
           <label
             for="name"
             type="text"
-            class="text-gray-800 dark:text-gray-100 text-sm font-bold leading-tight tracking-normal mb-2"
+            class="mb-2 text-sm font-bold leading-tight tracking-normal text-gray-800 dark:text-gray-100"
             >Name</label
           >
           <input
             id="name"
 	    aria-label="name"
-            class="text-gray-600 dark:text-gray-400 focus:outline-none focus:border focus:border-indigo-700 dark:focus:border-indigo-700 dark:border-gray-700 dark:bg-gray-800 bg-white font-normal w-full h-10 flex items-center pl-3 text-sm border-gray-300 rounded border shadow"
+            class="flex items-center w-full h-10 pl-3 text-sm font-normal text-gray-600 bg-white border border-gray-300 rounded shadow dark:text-gray-400 focus:outline-none focus:border focus:border-indigo-700 dark:focus:border-indigo-700 dark:border-gray-700 dark:bg-gray-800"
             placeholder="Enter your name"
           />
         </div>
         <div class="flex flex-col">
           <label
             for="email"
-            class="text-gray-800 dark:text-gray-100 text-sm font-bold leading-tight tracking-normal mb-2"
+            class="mb-2 text-sm font-bold leading-tight tracking-normal text-gray-800 dark:text-gray-100"
             >Email</label
           >
           <input
             id="email"
 	    aria-label="email address"
-            class="text-gray-600 dark:text-gray-400 focus:outline-none focus:border focus:border-indigo-700 dark:focus:border-indigo-700 dark:border-gray-700 dark:bg-gray-800 bg-white font-normal w-full h-10 flex items-center pl-3 text-sm border-gray-300 rounded border shadow"
+            class="flex items-center w-full h-10 pl-3 text-sm font-normal text-gray-600 bg-white border border-gray-300 rounded shadow dark:text-gray-400 focus:outline-none focus:border focus:border-indigo-700 dark:focus:border-indigo-700 dark:border-gray-700 dark:bg-gray-800"
             placeholder="Enter email"
           />
         </div>
@@ -53,19 +53,19 @@
           <label
             for="phone"
             type="tel"
-            class="text-gray-800 dark:text-gray-100 text-sm font-bold leading-tight tracking-normal mb-2"
+            class="mb-2 text-sm font-bold leading-tight tracking-normal text-gray-800 dark:text-gray-100"
             >Phone</label
           >
           <input
             id="phone"
 	    aria-label="phone number"
-            class="text-gray-600 dark:text-gray-400 focus:outline-none focus:border focus:border-indigo-700 dark:focus:border-indigo-700 dark:border-gray-700 dark:bg-gray-800 bg-white font-normal w-full h-10 flex items-center pl-3 text-sm border-gray-300 rounded border shadow"
+            class="flex items-center w-full h-10 pl-3 text-sm font-normal text-gray-600 bg-white border border-gray-300 rounded shadow dark:text-gray-400 focus:outline-none focus:border focus:border-indigo-700 dark:focus:border-indigo-700 dark:border-gray-700 dark:bg-gray-800"
             placeholder="Enter phone number"
           />
         </div>
 
         <div class="flex flex-col">
-          <label class="text-sm font-semibold text-gray-800 mb-2" for="message"
+          <label class="mb-2 text-sm font-semibold text-gray-800" for="message"
             >Message</label
           >
           <textarea
@@ -73,17 +73,17 @@
 	    aria-label="message"
             placeholder=""
             name="message"
-            class="border-gray-300 w-full border mb-4 rounded py-2 text-sm outline-none resize-none px-3 focus:border focus:border-indigo-700"
+            class="w-full px-3 py-2 mb-4 text-sm border border-gray-300 rounded outline-none resize-none focus:border focus:border-indigo-700"
             rows="8"
           ></textarea>
         </div>
         <button
-          class="bg-purple-600 hover:bg-purple-400 gap-4 text-gray-200 font-bold py-2 px-4 rounded inline-flex w-full justify-center items-center"
+          class="inline-flex items-center justify-center w-full px-4 py-2 font-bold text-gray-200 bg-purple-600 rounded hover:bg-purple-400 gap-4"
         >
           <!-- Please refer: https://github.com/shubhamjain/svg-loader -->
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="h-6 w-6"
+            class="w-6 h-6"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"

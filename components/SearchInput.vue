@@ -3,7 +3,7 @@
   <!-- component -->
   <div>
     <form method="GET">
-      <div class="text-gray-600 focus-within:text-gray-400">
+      <div class="relative text-gray-600 focus-within:text-gray-400">
         <span class="absolute inset-y-0 left-0 flex items-center pl-2">
           <button
             type="submit"
@@ -24,10 +24,9 @@
           </button>
         </span>
         <input
-          v-model="searchQuery"
           type="search"
           name="q"
-          class="py-2 text-sm text-white bg-gray-900 rounded-md pl-10 w-full focus:outline-none focus:bg-white focus:text-gray-900"
+          class="w-full py-2 pl-10 text-sm text-white bg-gray-900 rounded-md focus:outline-none focus:bg-white focus:text-gray-900"
           placeholder="Search article"
           autocomplete="off"
         />
