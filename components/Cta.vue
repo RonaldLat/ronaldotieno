@@ -5,14 +5,14 @@
   <div class="flex items-center mt-8">
     <a
       href="/"
-      class="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-gray-600 bg-gray-200 border-2 border-purple-400 rounded shadow-lg transition duration-200 hover:bg-purple-400 focus:shadow-outline focus:outline-none"
+      class="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-gray-600 bg-gray-200 border-2 rounded shadow-lg border-violet-400 transition duration-200 hover:bg-violet-400 focus:shadow-outline focus:outline-none"
     >
       Hire me
     </a>
     <a
       href="/blog/allposts"
       aria-label=""
-      class="inline-flex items-center font-semibold text-gray-800 text-purple-700 underline decoration-1 transition-colors duration-200"
+      class="inline-flex items-center font-semibold text-gray-800 underline text-violet-700 decoration-1 transition-colors duration-200"
       >My articles</a
     >
   </div>

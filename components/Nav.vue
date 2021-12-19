@@ -14,7 +14,7 @@
               >r.o</span
             >
           </a>
-          <ul class="flex font-[Play] items-center space-x-2 text-xs text-purple-600 md:text-sm md:space-x-5 md">
+          <ul class="flex font-[Play] items-center space-x-2 text-xs text-violet-600 md:text-sm md:space-x-5 md">
             <li></li>
             <li>
               <a
@@ -48,7 +48,7 @@
         <div class="flex flex-col items-end">
           <a
             href="/"
-            class="inline-flex items-center justify-center px-6 font-medium tracking-wide text-white bg-purple-500 rounded shadow-md transition duration-200 h-9 md:h-12 justify-self-end w-max hover:bg-purple-700 focus:shadow-outline focus:outline-none"
+            class="inline-flex items-center justify-center px-6 font-medium tracking-wide text-white rounded shadow-md bg-violet-500 transition duration-200 h-9 md:h-12 justify-self-end w-max hover:bg-violet-700 focus:shadow-outline focus:outline-none"
             aria-label="Sign up"
             title="Hire me"
           >

@@ -31,15 +31,15 @@ export default {
 	    :alt="article.alt"
             class="block object-cover w-2/5 h-24 bg-black rounded"
           />
-          <div class="w-3/5 flex justify-between flex-col  pl-3">
+          <div class="flex flex-col justify-between w-3/5 pl-3">
             <div
-              class="grid grid-cols-1 pb-1 text-xs font-semibold text-gray-500 capitalize"
+              class="pb-1 text-xs font-semibold text-gray-500 capitalize grid grid-cols-1"
             >
               <span class="text-gray-500 justify-self-end">
                 {{ formatDate(article.createdAt) }}
               </span>
             </div>
-            <h3 class="mb-3 font-bold leading-tight text-md">
+            <h3 class="mb-3 font-black leading-tight text-gray-800 text-md">
               {{ article.title }}
             </h3>
             <div class="grid grid-cols-2">
@@ -53,9 +53,9 @@ export default {
                   background-size: cover;
                 "
               ></div>
-              <div class="text-purple500 underline">Ronald Otieno</div>
+              <div class="font-semibold underline decoration-wavy">Ronald Otieno</div>
             </div>
-              <span class="text-gray-500 text-xs justify-self-end">
+              <span class="hidden text-xs text-gray-500 justify-self-end">
                 read time 4mins
               </span>
             </div>

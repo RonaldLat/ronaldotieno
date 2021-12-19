@@ -16,10 +16,10 @@
             class="max-w-lg font-[Play] mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none"
           >
             A programmer is<br class="hidden md:block" />
-            as good
-            <span class="inline-block text-purple-500"
-              >as the tools he uses</span
-            >
+            as good as the 
+            <span class="inline-block text-violet-500"
+              >tools</span
+            > he uses
           </h2>
           <p class="text-base text-gray-700 md:text-lg">
             To be efficient and productive in what I do, I have carefully picked the tools that will help me accomplish my tasks fast.

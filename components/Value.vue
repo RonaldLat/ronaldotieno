@@ -15,7 +15,7 @@
       <h2
         class="w-full mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-left text-gray-900 font-[Play] sm:text-4xl md:mx-auto"
       >
-        What <span class="text-purple-600">i can offer</span> to your business
+        What <span class="text-violet-500">value</span> I can bring to your business
       </h2>
       <p class="text-base text-left text-gray-700 md:text-lg">
         Here are some of the ways I can bring value to your business of professional practice;
@@ -25,7 +25,7 @@
       class="mb-8 grid gap-8 row-gap-5 md:row-gap-8 md:grid-cols-2 lg:grid-cols-4 sm:grid-cols-2"
     >
       <div
-        class="bg-white border-l-4 border-purple-400 duration-300 transform hover:-translate-y-2"
+        class="bg-white border-l-4 border-violet-400 duration-300 transform hover:-translate-y-2"
       >
         <div class="h-full p-5 border border-l-0 rounded-r shadow-sm">
           <h6 class="mb-2 font-semibold leading-5">SEO</h6>
@@ -36,7 +36,7 @@
         </div>
       </div>
       <div
-        class="bg-white border-l-4 border-purple-400 duration-300 transform hover:-translate-y-2"
+        class="bg-white border-l-4 border-violet-400 duration-300 transform hover:-translate-y-2"
       >
         <div class="h-full p-5 border border-l-0 rounded-r shadow-sm">
           <h6 class="mb-2 font-semibold leading-5">Web Design</h6>
@@ -46,7 +46,7 @@
         </div>
       </div>
       <div
-        class="bg-white border-l-4 border-purple-400 duration-300 transform hover:-translate-y-2"
+        class="bg-white border-l-4 border-violet-400 duration-300 transform hover:-translate-y-2"
       >
         <div class="h-full p-5 border border-l-0 rounded-r shadow-sm">
           <h6 class="mb-2 font-semibold leading-5">Content Marketing</h6>
@@ -57,7 +57,7 @@
         </div>
       </div>
       <div
-        class="bg-white border-l-4 border-purple-400 duration-300 transform hover:-translate-y-2"
+        class="bg-white border-l-4 border-violet-400 duration-300 transform hover:-translate-y-2"
       >
         <div class="h-full p-5 border border-l-0 rounded-r shadow-sm">
           <h6 class="mb-2 font-semibold leading-5">Web Applications</h6>
@@ -70,7 +70,7 @@
     <div class="text-center">
       <a
         href="/blog"
-        class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white bg-purple-500 rounded shadow-md shadow-purple-200 transition duration-200 md:w-auto hover:bg-purple-700 focus:shadow-outline focus:outline-none"
+        class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white rounded shadow-md bg-violet-500 shadow-violet-200 transition duration-200 md:w-auto hover:bg-violet-700 focus:shadow-outline focus:outline-none"
       >
         Learn more
       </a>

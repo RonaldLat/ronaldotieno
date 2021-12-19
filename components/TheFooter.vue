@@ -1,6 +1,6 @@
 <template>
-  <footer class="w-full px-4 py-16 lg:px-48    md:px-24 lg:px-8 lg:py-20 text-gray-200 bg-gray-900 flex flex-col gap-2 ">
-    <p class="uppercase text-gray-200 text-sm font-bold tracking-wide">
+  <footer class="flex flex-col w-full px-4 py-16 text-gray-200 bg-gray-900 lg:px-48 md:px-24 lg:px-8 lg:py-20 gap-2 ">
+    <p class="text-sm font-bold tracking-wide text-gray-200 uppercase">
       subscribe
     </p>
     <p class="text-gray-400">
@@ -9,7 +9,7 @@
     <div class="max-w-md pt-3">
       <SubscribeMiniDark />
     </div>
-    <ul class="flex gap-3 text-purple-300 capitalize">
+    <ul class="flex capitalize gap-3 text-violet-300">
       <li><a href="/">Home</a></li>
       <li><a href="portofolio">Portofolio</a></li>
       <li><a href="/blog">Blog</a></li>

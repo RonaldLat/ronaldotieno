@@ -7,7 +7,7 @@ export default {
 <template>
   <div class="w-full pb-16 lg:pb-20">
     <div
-      class="w-full min-h-[50vh] bg-cover-bg-bottom bg-purple-500 text-gray-200"
+      class="w-full min-h-[50vh] bg-cover-bg-bottom bg-violet-500 text-gray-200"
     >
       <div
         class="container max-w-4xl py-16 mx-auto text-center break-normal md:py-36"
@@ -49,7 +49,7 @@ export default {
             >
               <a
                 href="/"
-                class="text-gray-300 transition-colors duration-300 hover:text-purple-400"
+                class="text-gray-300 transition-colors duration-300 hover:text-violet-400"
               >
                 <svg viewBox="0 0 24 24" fill="currentColor" class="h-5">
                   <path
@@ -59,7 +59,7 @@ export default {
               </a>
               <a
                 href="/"
-                class="text-gray-300 transition-colors duration-300 hover:text-purple-400"
+                class="text-gray-300 transition-colors duration-300 hover:text-violet-400"
               >
                 <svg viewBox="0 0 30 30" fill="currentColor" class="h-6">
                   <circle cx="15" cy="15" r="4"></circle>
@@ -70,7 +70,7 @@ export default {
               </a>
               <a
                 href="/"
-                class="text-gray-300 transition-colors duration-300 hover:text-purple-400"
+                class="text-gray-300 transition-colors duration-300 hover:text-violet-400"
               >
                 <svg viewBox="0 0 24 24" fill="currentColor" class="h-5">
                   <path
@@ -95,7 +95,7 @@ export default {
         <a
           href="/blog/allposts"
           aria-label=""
-          class="inline-flex items-center font-semibold text-purple-500 transition-colors duration-200 hover:text-purple-800"
+          class="inline-flex items-center font-semibold text-violet-500 transition-colors duration-200 hover:text-violet-800"
         >
           See more
           <svg

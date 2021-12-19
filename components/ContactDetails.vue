@@ -14,38 +14,38 @@ export default {
 <template>
   <div
     style="background-image: url(map.png)"
-    class="bg-purple-100 py-1 md:h-full md:py-8 lg:py-8 px-2"
+    class="px-2 py-1 bg-violet-100 rounded-md md:rounded-tr-none md:rounded-br-none md:h-full md:py-8 lg:py-8"
   >
-    <div class="py-1 relative">
-      <div class="xl:mx-auto xl:container relative">
+    <div class="relative py-1">
+      <div class="relative xl:mx-auto xl:container">
         <div class="flex flex-wrap xl:mx-auto xl:container">
           <div
-            class="w-full relative lg:w1/2 xl:mt-10 mb-10 2xl:pr-24 2xl:pl-0 xl:pl-12 pl-0"
+            class="relative w-full pl-0 mb-10 lg:w1/2 xl:mt-10 2xl:pr-24 2xl:pl-0 xl:pl-12"
           >
             <div
-              class="w-full flex flex-col items-start xl:justify-start relative z-20 xl:px-0 px-4 xl:py-0 py-4"
+              class="relative z-20 flex flex-col items-start w-full px-4 py-4 xl:justify-start xl:px-0 xl:py-0"
             >
               <div class="w-full">
                 <h1
-                  class="text-xl w-full md:text-3xl lg:text-4xl font-bold tracking-wider text-gray-800"
+                  class="w-full text-xl font-bold tracking-wider text-gray-800 md:text-3xl lg:text-4xl"
                 >
                   Find me here
                 </h1>
-                <div class="w-full md:w-10/12 mt-3">
+                <div class="w-full mt-3 md:w-10/12">
                   <h2
-                    class="text-gray-800 text-base md:text-lg leading-8 tracking-wider"
+                    class="text-base tracking-wider text-gray-800 md:text-lg leading-8"
                   >
                     We believe digital innovation is at the heart of every
                     business success
                   </h2>
                   <div class="mt-4 md:mt-8">
                     <h2
-                      class="text-sm flex items center gap-2 md:text-base text-gray-700 font-bold"
+                      class="flex text-sm font-bold text-gray-700 items center gap-2 md:text-base"
                     >
                       <span>
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          class="h-6 w-6"
+                          class="w-6 h-6"
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
@@ -67,19 +67,19 @@ export default {
                       <span>Address </span>
                     </h2>
                     <h2
-                      class="text-gray-800 text-base md:text-lg leading-8 tracking-wider mt-2"
+                      class="mt-2 text-base tracking-wider text-gray-800 md:text-lg leading-8"
                     >
                       {{ address }}
                     </h2>
                   </div>
                   <div class="mt-4 md:mt-8">
                     <h2
-                      class="text-sm flex items-center gap-2 md:text-base font-bold text-gray-700 font-semibold"
+                      class="flex items-center text-sm font-semibold font-bold text-gray-700 gap-2 md:text-base"
                     >
                       <span class="inline">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          class="h-6 w-6"
+                          class="w-6 h-6"
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
@@ -95,24 +95,24 @@ export default {
                       <span class="">Phone</span>
                     </h2>
                     <h2
-                      class="text-gray-800 text-base md:text-lg leading-8 tracking-wider mt-2"
+                      class="mt-2 text-base tracking-wider text-gray-800 md:text-lg leading-8"
                     >
                       {{ phone }}
                     </h2>
                     <h2
-                      class="text-gray-800 hidden text-base md:text-lg leading-8 tracking-wider mt-2"
+                      class="hidden mt-2 text-base tracking-wider text-gray-800 md:text-lg leading-8"
                     >
                       {{ cell }} (Cell)
                     </h2>
                   </div>
                   <div class="mt-4 md:mt-8">
                     <h2
-                      class="text-sm flex gap-2 flex center-items font-bold md:text-base text-gray-700 font-bold"
+                      class="flex text-sm font-bold text-gray-700 gap-2 center-items md:text-base"
                     >
                       <span>
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          class="h-6 w-6"
+                          class="w-6 h-6"
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
@@ -128,7 +128,7 @@ export default {
                       Email
                     </h2>
                     <h2
-                      class="text-gray-800 text-base md:text-lg leading-8 tracking-wider mt-2"
+                      class="mt-2 text-base tracking-wider text-gray-800 md:text-lg leading-8"
                     >
                       {{ email }}
                     </h2>
