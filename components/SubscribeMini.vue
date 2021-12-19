@@ -5,7 +5,7 @@
       placeholder="Email"
       required=""
       type="text"
-      class="flex-grow h-12 px-4 mr-2 bg-white border border-gray-300 rounded appearance-none col-span-2 transition duration-200 shadow-sm md:mr-2 md:mb-0 focus:border-violet-500 focus:outline-none focus:shadow-outline"
+      class="flex-grow font-[Play] h-12 px-4 mr-2 bg-white border border-gray-300 rounded appearance-none col-span-2 transition duration-200 shadow-sm md:mr-2 md:mb-0 focus:border-violet-500 focus:outline-none focus:shadow-outline"
     />
     <button
       type="submit"

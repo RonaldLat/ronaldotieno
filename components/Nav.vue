@@ -14,7 +14,7 @@
               >r.o</span
             >
           </a>
-          <ul class="flex font-[Play] items-center space-x-2 text-xs text-violet-600 md:text-sm md:space-x-5 md">
+          <ul class="flex font-[Play] items-center space-x-2 text-sm text-violet-600 md:text-sm md:space-x-5 md">
             <li></li>
             <li>
               <a

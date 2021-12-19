@@ -92,9 +92,9 @@ export default {
             </p>
 
             <ul
-              class="flex text-gray-200 underline decoration-2 underline-offset-2 gap-2"
+              class="flex text-gray-200 underline decoration-2 underline-offset-2 gap-6"
             >
-              <li class="text-xs">
+              <li class="text-sm">
                 <a :href="project.url" class="decoration-gray-300 hover:text-violet-300">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -111,7 +111,7 @@ export default {
                   </svg>
                 </a>
               </li>
-              <li class="">
+              <li class="text-sm">
                 <a :href="project.git" class="decoration-gray-300 hover:text-violet-300">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -134,7 +134,7 @@ export default {
     </ul>
     <div class="text-center">
       <a
-        href="/"
+        href="/portofolio"
         aria-label=""
         class="inline-flex items-center font-semibold underline text-violet-600 decoration-2 transition-colors duration-200 hover:text-violet-800"
       >

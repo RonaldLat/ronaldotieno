@@ -1,5 +1,5 @@
 <template>
-<div class="bp-36">
+<div class="pb-36">
 
 
   <div
@@ -51,7 +51,7 @@
           <input
             id="name"
 	    aria-label="name"
-            class="flex items-center w-full h-10 pl-3 text-sm font-normal text-gray-600 bg-white border border-gray-300 rounded shadow dark:text-gray-400 focus:outline-none focus:border focus:border-indigo-700 dark:focus:border-indigo-700 dark:border-gray-700 dark:bg-gray-800"
+            class="flex items-center w-full h-10 pl-3 text-sm font-normal text-gray-600 bg-white border border-gray-300 rounded shadow focus:outline-none focus:border focus:border-indigo-700 "
             placeholder="Enter your name"
           />
         </div>
@@ -64,7 +64,7 @@
           <input
             id="email"
 	    aria-label="email address"
-            class="flex items-center w-full h-10 pl-3 text-sm font-normal text-gray-600 bg-white border border-gray-300 rounded shadow dark:text-gray-400 focus:outline-none focus:border focus:border-indigo-700 dark:focus:border-indigo-700 dark:border-gray-700 dark:bg-gray-800"
+            class="flex items-center w-full h-10 pl-3 text-sm font-normal text-gray-600 bg-white border border-gray-300 rounded shadow focus:outline-none focus:border focus:border-indigo-700 "
             placeholder="Enter email"
           />
         </div>
