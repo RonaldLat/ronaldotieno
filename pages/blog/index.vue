@@ -7,36 +7,36 @@ export default {
 <template>
   <div class="w-full pb-16 lg:pb-20">
     <div
-      class="w-full min-h-1/2 bg-cover-bg-bottom bg-purple-500 text-gray-200"
+      class="w-full min-h-[50vh] bg-cover-bg-bottom bg-purple-500 text-gray-200"
     >
       <div
-        class="container max-w-4xl mx-auto py-16 md:py-36 text-center break-normal"
+        class="container max-w-4xl py-16 mx-auto text-center break-normal md:py-36"
       >
         <!--Title-->
-        <p class="text-white font-extrabold text-3xl md:text-5xl">
+        <p class="text-3xl font-extrabold text-white md:text-5xl">
           👻 Ronald Otieno
         </p>
-        <p class="text-xl md:text-2xl mb-8 mt-4 text-gray-200">Welcome to my Blog</p>
+        <p class="mt-4 mb-8 text-xl text-gray-200 md:text-2xl">Welcome to my Blog</p>
       </div>
     </div>
 
     <div
-      class="container sm:px-4 px-2 w-full md:px-24 lg:px-8 max-w-6xl mx-auto mx-auto lg:max-w-screen-xl -mt-32"
+      class="container w-full max-w-6xl px-2 mx-auto -mt-32 sm:px-4 md:px-24 lg:px-8 lg:max-w-screen-xl"
     >
       <div>
         <!--Nav-->
-        <nav class="mt-0 w-full items-center justify-between flex gap-2">
+        <nav class="flex items-center justify-between w-full mt-0 gap-2">
           <ul class="flex items-center text-gray-100 ">
             <li >
               <a
-                class="inline-block uppercase py-2 px-2 hover:text-gray-200 no-underline hover:underline"
+                class="inline-block px-2 py-2 no-underline uppercase hover:text-gray-200 hover:underline"
                 href="/blog/allposts"
                 >all articles</a
               >
             </li>
             <li >
               <a
-                class="inline-block uppercase  no-underline hover:text-gray-200 hover:underline py-2 px-2"
+                class="inline-block px-2 py-2 no-underline uppercase hover:text-gray-200 hover:underline"
                 href="#"
                 >tags</a
               >
@@ -45,7 +45,7 @@ export default {
 
           <div class="pr-4">
             <div
-              class="flex items-center  space-x-4 text-gray-300 sm:mt-2"
+              class="flex items-center text-gray-300 space-x-4 sm:mt-2"
             >
               <a
                 href="/"
@@ -84,10 +84,10 @@ export default {
       </div>
     </div>
 
-    <div class="md:max-w-xl w-11/12 lg:max-w-3xl mx-auto">
+    <div class="w-11/12 mx-auto md:max-w-xl lg:max-w-3xl">
       <Subscribe />
     </div>
-    <div class="grid py-16 w-full grid-cols-1 px-2 sm:px-4 md:px-24 lg:pb-8">
+    <div class="w-full px-2 py-16 grid grid-cols-1 sm:px-4 md:px-24 lg:pb-8">
       <HomePosts />
     </div>
 
@@ -95,7 +95,7 @@ export default {
         <a
           href="/blog/allposts"
           aria-label=""
-          class="inline-flex items-center font-semibold transition-colors duration-200 text-purple-500 hover:text-purple-800"
+          class="inline-flex items-center font-semibold text-purple-500 transition-colors duration-200 hover:text-purple-800"
         >
           See more
           <svg
