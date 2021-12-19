@@ -13,7 +13,7 @@
       </svg>
       <img
         class="object-cover w-full bg-gray-400 rounded shadow-lg h-96 lg:rounded-none lg:shadow-none md:h-auto lg:h-full"
-        src="lat2-smaller.webp"
+        src="/lat2-smaller.webp"
         alt=""
       />
     </div>

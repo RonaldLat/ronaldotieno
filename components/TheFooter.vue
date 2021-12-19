@@ -9,7 +9,7 @@
     <div class="max-w-md pt-3">
       <SubscribeMiniDark />
     </div>
-    <ul class="flex capitalize gap-3 text-violet-300">
+    <ul class="flex font-[Play] capitalize gap-3 text-violet-300">
       <li><a href="/">Home</a></li>
       <li><a href="portofolio">Portofolio</a></li>
       <li><a href="/blog">Blog</a></li>

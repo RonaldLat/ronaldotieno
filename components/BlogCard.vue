@@ -27,7 +27,7 @@ export default {
           class="flex w-full "
         >
           <img
-            :src="article.img"
+            :src="'/' + article.img"
 	    :alt="article.alt"
             class="block object-cover w-2/5 h-24 bg-black rounded"
           />

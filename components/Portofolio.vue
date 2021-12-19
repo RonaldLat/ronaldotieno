@@ -81,7 +81,7 @@ export default {
         >
           <img
             class="object-contain w-full h-56 md:h-64 xl:h-80"
-            :src="project.img"
+            :src="'/' + project.img"
             :alt="project.alt"
           />
           <div
