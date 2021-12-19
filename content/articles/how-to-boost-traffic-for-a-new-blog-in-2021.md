@@ -1,7 +1,7 @@
 ---
 title: How to boost traffic for a new blog
 description: x actionable tips you can start using to increase traffic for our new blog
-img: seo.png
+img: seo.webp
 alt: search engine image
 ---
 

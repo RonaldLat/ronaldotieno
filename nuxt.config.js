@@ -62,7 +62,7 @@ export default {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: `${siteUrl}/lat2-smaller.png`,
+        content: `${siteUrl}/lat2-smaller.webp`,
       },
       { property: 'og:image:width', content: '1200' },
       { property: 'og:image:height', content: '627' },
@@ -89,11 +89,11 @@ export default {
       {
         hid: 'twitter:image',
         name: 'twitter:image',
-        content: `${siteUrl}/lat2-smaller.png`,
+        content: `${siteUrl}/lat2-smaller.webp`,
       },
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.webp' },
       {
         hid: 'canonical',
         rel: 'canonical',
@@ -127,7 +127,6 @@ export default {
   googleFonts:{
     families: {
       Roboto: true,
-      'Josefin+Sans': true,
       Lato: [100, 300],
       'Play': true,
       'Poppins': true,

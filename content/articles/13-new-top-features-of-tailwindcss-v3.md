@@ -1,7 +1,7 @@
 ---
 title: 13 new top features of Tailwind CSS v3.0
 description: Overview of the top features of Tailwind v3.0
-img: tailwindv3.png
+img: tailwindv3.webp
 alt: tailwind v3.0
 tags: 
       - tailwind

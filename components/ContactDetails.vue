@@ -2,7 +2,7 @@
 export default {
   data() {
     return {
-      image: 'https://cdn.tuk.dev/assets/templates/radian/Back_Image.png',
+      image: 'map.webp',
       address: 'Kisumu, Kenya',
       phone: '+254 712 973489',
       cell: '+254 712 973489',
@@ -13,7 +13,7 @@ export default {
 </script>
 <template>
   <div
-    style="background-image: url(map.png)"
+    style="background-image: url(map.webp)"
     class="px-2 py-1 bg-violet-100 rounded-md md:rounded-tr-none md:rounded-br-none md:h-full md:py-8 lg:py-8"
   >
     <div class="relative py-1">

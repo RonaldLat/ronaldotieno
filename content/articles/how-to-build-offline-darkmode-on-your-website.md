@@ -1,7 +1,7 @@
 ---
 title: How To Build Offline DarkMode On Your Website
 description: Using localStorage to add dark mode to any website in simple steps
-img: dark-website.jpeg
+img: dark-website.webp
 alt: screenshot of dark-themed website
 tags: 
   - css

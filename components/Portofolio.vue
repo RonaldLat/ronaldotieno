@@ -6,7 +6,7 @@ export default {
         {
           name: 'Furniture Place Clone',
           url: 'https://frosty-hopper-d52530.netlify.app/',
-          img: 'furniture-palace-clone-pc.jpeg',
+          img: 'furniture-palace-clone-pc.webp',
           alt: 'screenshot of Furniture Palace clone Website',
           git: '',
         },
@@ -14,7 +14,7 @@ export default {
         {
           name: 'Ideal Sofas Website',
           url: 'https://happy-liskov-d56336.netlify.app/',
-          img: 'ideal-sofas-pc.jpeg',
+          img: 'ideal-sofas-pc.webp',
           alt: 'screenshot of Ideal Sofas Website',
           git: '',
         },
@@ -22,7 +22,7 @@ export default {
         {
           name: 'Dudi Resort website',
           url: '',
-          img: 'dr-portofolio.png',
+          img: 'dr-portofolio.webp',
           alt: 'screenshot of Dudi Resort Website',
           git: '',
         },
@@ -30,7 +30,7 @@ export default {
         {
           name: 'Milly Cakes website',
           url: '',
-          img: 'mc-portofolio.png',
+          img: 'mc-portofolio.webp',
           alt: 'screenshot of Dudi Resort Website',
           git: '',
         },

@@ -1,7 +1,7 @@
 ---
 title: Seven Reasons To Buy A Domain Name In 2021
 description: Why A Domain name matters more in 2021 than ever.
-img: dynamic.png
+img: dynamic.webp
 alt: web page illustration
 tags: 
   - web
