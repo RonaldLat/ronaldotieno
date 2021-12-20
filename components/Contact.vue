@@ -79,7 +79,7 @@
           <input
             id="phone"
 	    aria-label="phone number"
-            class="flex items-center w-full h-10 pl-3 text-sm font-normal text-gray-600 bg-white border border-gray-300 rounded shadow dark:text-gray-400 focus:outline-none focus:border focus:border-indigo-700 dark:focus:border-indigo-700 dark:border-gray-700 dark:bg-gray-800"
+            class="flex items-center w-full h-10 pl-3 text-sm font-normal text-gray-600 bg-white border border-gray-300 rounded shadow focus:outline-none focus:border focus:border-indigo-7"
             placeholder="Enter phone number"
           />
         </div>
