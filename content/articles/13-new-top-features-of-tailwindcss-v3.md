@@ -129,7 +129,7 @@ For example you want to set your nav to `50v`, just write `h-[50vh]`. Amazing. R
 
 12. ### Play CDN
 
-![](/tailwind-play-cdn.png)
+![](/tailwind-play-cdn.webp)
 
 A JavaScript library is available is available to test every Tailwind CSS feature right from the browser. You don't need to install anything.
 
