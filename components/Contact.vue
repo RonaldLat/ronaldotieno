@@ -1,35 +1,59 @@
+<script>
+import { collection, addDoc } from 'firebase/firestore'
+import { db } from '~/plugins/firebase.js'
+
+export default {
+  methods: {
+    async writeToFirestore() {
+      const submission = {
+        text: 'Firebase 9 rocks!',
+        name: 'Ronald Otieno',
+        email: 'ronnlats@gmail.com',
+        phone: '040357407',
+        message: 'this is my message to you',
+      }
+      try {
+       const docRef = await addDoc(collection(db, "formSubmission"),submission)
+        alert(docRef.id)
+      } catch (e) {
+        alert('Error!')
+        console.log(e)
+      }
+    },
+  },
+}
+</script>
+
 <template>
-<div class="pb-36">
-
-
-  <div
-    class="px-4 py-4 mx-auto overflow-x-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20"
-  >
-
-    <div>
-      <p
-        class="inline-block w-full px-3 py-px pl-0 mb-4 text-xs font-semibold tracking-wider text-left uppercase font-[Play] rounded-full text-gray-700"
-      >
-        contact
-      </p>
-    </div>
-
-    <div class="flex flex-col mb-6 lg:justify-between lg:flex-row md:mb-8">
-      <h2
-        class="max-w-lg font-[Play] mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none md:mb-6 group"
-      >
-        <span class="inline-block mb-1 sm:mb-4">
-          You have my undivided <span class="text-violet-500">attention </span></span
+  <div class="pb-36">
+    <button @click.prevent="writeToFirestore">write</button>
+    <div
+      class="px-4 py-4 mx-auto overflow-x-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20"
+    >
+      <div>
+        <p
+          class="inline-block w-full px-3 py-px pl-0 mb-4 text-xs font-semibold tracking-wider text-left uppercase font-[Play] rounded-full text-gray-700"
         >
-        <div
-          class="h-1 ml-auto duration-300 origin-left transform scale-x-30 group-hover:scale-x-100"
-        ></div>
-      </h2>
-      <p class="text-gray-700 md:text-lg">
-        Talk to me, and let's turn your idea into reality
-      </p>
-    </div>
+          contact
+        </p>
+      </div>
 
+      <div class="flex flex-col mb-6 lg:justify-between lg:flex-row md:mb-8">
+        <h2
+          class="max-w-lg font-[Play] mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none md:mb-6 group"
+        >
+          <span class="inline-block mb-1 sm:mb-4">
+            You have my undivided
+            <span class="text-violet-500">attention </span></span
+          >
+          <div
+            class="h-1 ml-auto duration-300 origin-left transform scale-x-30 group-hover:scale-x-100"
+          ></div>
+        </h2>
+        <p class="text-gray-700 md:text-lg">
+          Talk to me, and let's turn your idea into reality
+        </p>
+      </div>
     </div>
 
     <div
@@ -50,8 +74,8 @@
           >
           <input
             id="name"
-	    aria-label="name"
-            class="flex items-center w-full h-10 pl-3 text-sm font-normal text-gray-600 bg-white border border-gray-300 rounded shadow focus:outline-none focus:border focus:border-indigo-700 "
+            aria-label="name"
+            class="flex items-center w-full h-10 pl-3 text-sm font-normal text-gray-600 bg-white border border-gray-300 rounded shadow focus:outline-none focus:border focus:border-indigo-700"
             placeholder="Enter your name"
           />
         </div>
@@ -63,8 +87,8 @@
           >
           <input
             id="email"
-	    aria-label="email address"
-            class="flex items-center w-full h-10 pl-3 text-sm font-normal text-gray-600 bg-white border border-gray-300 rounded shadow focus:outline-none focus:border focus:border-indigo-700 "
+            aria-label="email address"
+            class="flex items-center w-full h-10 pl-3 text-sm font-normal text-gray-600 bg-white border border-gray-300 rounded shadow focus:outline-none focus:border focus:border-indigo-700"
             placeholder="Enter email"
           />
         </div>
@@ -78,19 +102,19 @@
           >
           <input
             id="phone"
-	    aria-label="phone number"
+            aria-label="phone number"
             class="flex items-center w-full h-10 pl-3 text-sm font-normal text-gray-600 bg-white border border-gray-300 rounded shadow dark:text-gray-400 focus:outline-none focus:border focus:border-indigo-700 dark:focus:border-indigo-700 dark:border-gray-700 dark:bg-gray-800"
             placeholder="Enter phone number"
           />
         </div>
 
         <div class="flex flex-col">
-          <label class="mb-2 text-sm font-semibold text-gray-800" for="message"
+      const ref = doc(db, "formSubmission", "contact1")
             >Message</label
           >
           <textarea
             id="message"
-	    aria-label="message"
+            aria-label="message"
             placeholder=""
             name="message"
             class="w-full px-3 py-2 mb-4 text-sm border border-gray-300 rounded outline-none resize-none focus:border focus:border-indigo-700"
