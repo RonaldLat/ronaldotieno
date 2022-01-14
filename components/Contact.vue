@@ -110,7 +110,7 @@ export default {
 
         <div class="flex flex-col">
       const ref = doc(db, "formSubmission", "contact1")
-            >Message</label
+           ><label>Message</label
           >
           <textarea
             id="message"
