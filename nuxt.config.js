@@ -27,7 +27,7 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: '',
-    titleTemplate: '%s Ronald Otieno Blog',
+    titleTemplate: '%s Ronald Otieno - Freelance Web Developer,
     htmlAttrs: {
       lang: 'en',
     },
@@ -51,7 +51,7 @@ export default {
       {
         hid: 'og:title',
         property: 'og:title',
-        content: 'Ronald Otieno Blog',
+        content: 'Ronald Otieno - Freelance Web Developer',
       },
       {
         hid: 'og:description',
@@ -78,7 +78,7 @@ export default {
       {
         hid: 'twitter:title',
         name: 'twitter:title',
-        content: 'Ronald Otieno Blog',
+        content: 'Ronald Otieno - Freelance Web Developer',
       },
       {
         hid: 'twitter:description',
