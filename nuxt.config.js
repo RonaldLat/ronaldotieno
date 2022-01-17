@@ -27,7 +27,7 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: '',
-    titleTemplate: '%s Ronald Otieno - Freelance Web Developer,
+    titleTemplate: ' Ronald Otieno - Freelance Web Developer',
     htmlAttrs: {
       lang: 'en',
     },
