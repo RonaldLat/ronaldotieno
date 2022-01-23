@@ -127,7 +127,7 @@ function carousel(root) {
     </div>
 
     <h2>Example 3</h2>
-    <div class="carousel" data-gap="80">
+    <div class="carousel" data-gap="40">
       <figure>
         <img src="img1.jpg" alt="" />
         <img src="img2.jpg" alt="" />
