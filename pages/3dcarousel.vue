@@ -130,13 +130,13 @@ function carousel(root) {
     <div class="carousel" data-gap="80">
       <figure>
         <img src="img1.jpg" alt="" />
-        <img src="img1.jpg" alt="" />
-        <img src="img1.jpg" alt="" />
-        <img src="img1.jpg" alt="" />
-        <img src="img1.jpg" alt="" />
-        <img src="img1.jpg" alt="" />
-        <img src="img1.jpg" alt="" />
-        <img src="img1.jpg" alt="" />
+        <img src="img2.jpg" alt="" />
+        <img src="img3.jpg" alt="" />
+        <img src="img4.jpg" alt="" />
+        <img src="img5.jpg" alt="" />
+        <img src="img6.jpg" alt="" />
+        <img src="img7.jpg" alt="" />
+        <img src="img8.jpg" alt="" />
       </figure>
       <nav>
         <button class="nav prev">Prev</button>
