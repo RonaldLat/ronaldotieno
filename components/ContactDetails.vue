@@ -5,7 +5,8 @@ export default {
       image: 'map.webp',
       address: 'Kisumu, Kenya',
       phone: '+254 712 973489',
-      email: 'contact@ronaldoti.com',
+      cell: '+254 712 973489',
+      customEmail: 'contact@ronaldoti.com',
       email: 'ronnlats@gmail.com',
     }
   },
