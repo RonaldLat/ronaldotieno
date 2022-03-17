@@ -17,7 +17,7 @@
     <SocialLinks />
 
     <p class="text-sm text-gray-500">
-      ©2021 Ronald Otieno. All Rights Reserved.
+      ©2022 Ronald Otieno. All Rights Reserved.
     </p>
   </footer>
 </template>
